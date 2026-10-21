@@ -771,3 +771,23 @@ body[data-brand="vcd"] .page-hero::after { background: linear-gradient(90deg, co
 .official { margin-top: 24px; padding: 18px 20px; border: 1.5px solid var(--accent); border-radius: var(--radius); background: var(--accent-soft); }
 .official-label { font-size: 12px; font-weight: 800; letter-spacing: 1px; text-transform: uppercase; color: var(--brand-deep); }
 .official .contact-list { margin-top: 12px; }
+
+/* RIBU: blog */
+.page-hero-img.own { opacity: .5; filter: none; }
+.cols-2 { grid-template-columns: repeat(2, 1fr) !important; }
+@media (max-width: 700px) { .cols-2 { grid-template-columns: 1fr !important; } }
+.post-card .media { aspect-ratio: 980 / 650; }
+.post-card h3 { font-size: 19px; }
+.article { max-width: calc(820px + 2 * var(--gutter)); }
+.article-cover { margin: 0 0 28px; border-radius: var(--radius); overflow: hidden; border: 1.5px solid var(--accent); aspect-ratio: 980 / 650; }
+.article-cover img { width: 100%; height: 100%; object-fit: cover; }
+.article .doc { max-width: none; }
+.article .doc h2 { margin-top: 32px; }
+
+/* RIBU: empresa */
+.exp-card { padding: 28px; border-radius: var(--radius); background: var(--brand); color: #fff; }
+.exp-card > strong { display: block; font-size: 44px; font-weight: 800; line-height: 1; color: var(--accent); }
+.exp-card > p { margin: 8px 0 20px; color: rgba(255,255,255,.88); }
+.team-card { align-items: flex-start; }
+.avatar { width: 52px; height: 52px; border-radius: 50%; display: grid; place-items: center; background: var(--accent); color: var(--accent-ink); font-weight: 800; font-size: 18px; }
+.team-card .role { font-weight: 700; color: var(--brand); font-size: 14px; }
