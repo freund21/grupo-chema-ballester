@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Jost:wght@300;400;500&family=Manrope:wght@400;500;600;700;800&display=swap');
+:root{font-family:Manrope,Arial,sans-serif;color:#122039;background:#f8f9fa;font-synthesis:none}*{box-sizing:border-box}body{margin:0}a{color:inherit}button,a{-webkit-tap-highlight-color:transparent}a:focus-visible{outline:3px solid white;outline-offset:-9px;box-shadow:inset 0 0 0 12px #122039}header{min-height:112px;padding:26px 4.1%;display:flex;justify-content:space-between;align-items:center;gap:24px;background:#fff}.group-name{text-decoration:none;font-size:clamp(20px,2.1vw,30px);font-weight:800;letter-spacing:-1.1px}.group-name span{font-weight:500}.header-note{font-size:12px;letter-spacing:2px;text-transform:uppercase;display:flex;align-items:center;gap:18px}.color-bars{display:flex;gap:4px}.color-bars i{width:5px;height:24px;background:#174c8c}.color-bars i:nth-child(2){background:#c3273d}.color-bars i:nth-child(3){background:#de7425}.panels{display:flex;isolation:isolate;min-height:660px;height:calc(100svh - 160px);position:relative;overflow:hidden;background:#13223a}.panel{--brand:#103f79;--rgb:16,63,121;position:relative;flex:1 1 0;min-width:0;overflow:hidden;text-decoration:none;color:#fff;background:var(--brand);transition:flex-grow .6s cubic-bezier(.22,1,.36,1),opacity .4s;display:flex;flex-direction:column;padding:35px clamp(24px,3.1vw,60px) 34px}.red{--brand:#9e1830;--rgb:158,24,48}.orange{--brand:#91400b;--rgb:145,64,11}.panel+.panel{border-left:1px solid #ffffff29}.panel-photo,.tint{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;pointer-events:none}.panel-photo{transition:transform 1s cubic-bezier(.22,1,.36,1);object-position:50% 50%;filter:saturate(.55)}.tint{background:linear-gradient(180deg,rgba(var(--rgb),.44),rgba(var(--rgb),.28) 25%,rgba(var(--rgb),.88) 65%,var(--brand) 100%)}.red .tint{background:linear-gradient(180deg,#ad143d70,#ad143d40 25%,#971b36ed 70%,#8b162c)}.orange .tint{background:linear-gradient(180deg,#c9752375,#c9752345 25%,#8e410cf0 70%,#813707)}.panel-top,.panel-content,.company{position:relative;z-index:1}.panel-top{display:flex;justify-content:space-between;align-items:center;font-size:12px;letter-spacing:1.9px;text-transform:uppercase}.panel-number{font-size:14px;font-weight:500;letter-spacing:0}.panel-content{margin-top:auto;padding-top:140px;padding-bottom:44px}.service-category{font-size:12px;letter-spacing:2px;text-transform:uppercase;display:block;margin-bottom:18px;color:#ffffffd9}h1,h2,p{margin:0}.panel h2{font-family:'Barlow Condensed','Arial Narrow',Arial,sans-serif;font-size:clamp(35px,3.65vw,64px);font-weight:600;line-height:1.06;letter-spacing:-.4px;max-width:430px}.panel h2 span{display:block}.cta{display:flex;align-items:center;gap:12px;margin-top:27px;font-size:14px;font-weight:600}.cta .arrow{font-size:23px;transition:transform .3s}.company{min-height:78px;border-top:1px solid #ffffff50;padding-top:24px;display:flex;align-items:center}.wordmark{font-weight:800;font-size:clamp(22px,2.2vw,34px);line-height:1.02;letter-spacing:-1px}.wordmark small{display:block;font-size:11px;font-weight:600;letter-spacing:3px;text-transform:uppercase;line-height:1.9}.wordmark.vcd{letter-spacing:-1.2px}.wordmark.vcd span{font-weight:500;font-size:.7em;letter-spacing:-.4px}.wordmark.ribu small{font-size:16px;letter-spacing:2px;text-transform:none}.page-footer{min-height:48px;display:flex;justify-content:space-between;align-items:center;gap:16px;padding:12px 4.1%;font-size:11px;letter-spacing:.6px;color:#526073}.page-footer .footer-identity{display:flex;gap:20px}.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}.leaving .panel{opacity:0;pointer-events:none}.transition-cover{position:fixed;z-index:20;overflow:hidden;background:var(--brand);pointer-events:none}.transition-cover .panel-photo{object-fit:cover}.transition-cover .tint{opacity:1}.back-link{text-decoration:none;font-size:14px;font-weight:600;padding:12px}.back-link:focus-visible,.group-name:focus-visible{outline:3px solid #164a83;outline-offset:5px;box-shadow:none}.detail{position:relative;min-height:calc(100svh - 160px);overflow:hidden;background:var(--brand);color:white;display:flex;align-items:flex-end;padding:90px 8%}.detail .panel-photo{object-position:center 45%}.detail .tint{background:linear-gradient(90deg,rgba(var(--rgb),.96),rgba(var(--rgb),.60))}.detail-content{position:relative;max-width:920px;animation:enter .6s ease both}.detail .wordmark{margin-bottom:56px}.detail h1{font-family:'Barlow Condensed','Arial Narrow',Arial,sans-serif;font-size:clamp(46px,6vw,90px);font-weight:600;line-height:1.05;max-width:870px}.detail p{font-size:16px;line-height:1.8;margin-top:26px;max-width:520px}.detail-back{display:inline-block;margin-top:40px;border:1px solid #ffffff80;padding:15px 23px;text-decoration:none;font-size:14px}.detail-back:hover{background:#ffffff18}@keyframes enter{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}@media(hover:hover) and (pointer:fine){.panel:hover,.panel:focus-visible{flex-grow:1.18}.panel:hover .panel-photo,.panel:focus-visible .panel-photo{transform:scale(1.055)}.cta{opacity:0;transform:translateY(6px);transition:opacity .3s,transform .3s}.panel:hover .cta,.panel:focus-visible .cta{opacity:1;transform:none}.panel:hover .arrow{transform:translateX(4px)}}@media(min-width:1600px){.panel-content{padding-bottom:60px}.panel{padding-bottom:42px}}@media(max-width:760px){header{min-height:90px;padding:22px 6%;gap:12px}.header-note>span{display:none}.group-name{font-size:21px;letter-spacing:-.8px}.color-bars i{height:20px;width:4px}.panels{display:block;height:auto;min-height:0}.panel{min-height:490px;padding:27px 7% 28px}.panel+.panel{border-left:0;border-top:1px solid #ffffff35}.panel-content{padding-top:115px;padding-bottom:30px}.panel h2{font-size:43px;max-width:430px}.panel-photo{object-position:50% 40%}.panel-top{font-size:11px}.wordmark{font-size:28px}.company{min-height:70px;padding-top:20px}.cta{margin-top:20px}.page-footer{padding:18px 6%;font-size:11px}.footer-identity{display:none!important}.detail{min-height:calc(100svh - 140px);padding:60px 7%}.detail .wordmark{margin-bottom:60px}.back-link{font-size:12px;padding:8px}.detail-header .group-name{font-size:18px;max-width:165px}.detail p{font-size:16px}}@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.panel:hover .panel-photo{transform:none}.panel:hover,.panel:focus-visible{flex-grow:1}}
+
+/* Dark top scrim keeps small white labels readable over bright skies. */
+.panel::after{content:'';position:absolute;inset:0 0 auto;height:150px;background:linear-gradient(#07152480,transparent);pointer-events:none}
+
+/* ===== Portada con los colores del folleto del grupo (octubre 2026) ===== */
+.panel{--brand:#052e80;--rgb:5,46,128}
+.red{--brand:#de0134;--rgb:222,1,52}
+.orange{--brand:#f19100;--rgb:241,145,0}
+.panel+.panel{border-left:0}
+.group-name{color:#052e80}
+.color-bars i{background:#052e80}.color-bars i:nth-child(2){background:#de0134}.color-bars i:nth-child(3){background:#f19100}
+/* Foto en blanco y negro teñida con el color de la empresa (duotono) */
+.panel-photo{filter:grayscale(1) brightness(1.18) contrast(1.05)}
+.tint,.red .tint,.orange .tint{background:var(--brand);mix-blend-mode:multiply}
+/* Fundido a color sólido en la parte baja y velo suave arriba para las etiquetas */
+.panel::after{inset:0;height:auto;background:linear-gradient(180deg,rgba(0,0,0,.22) 0,rgba(0,0,0,0) 20%,rgba(var(--rgb),0) 38%,var(--brand) 80%)}
+/* Símbolo de cada empresa como marca de agua blanca */
+.watermark{position:absolute;z-index:1;pointer-events:none;opacity:.24;height:auto;transition:transform 1s cubic-bezier(.22,1,.36,1)}
+.blue .watermark{width:88%;top:13%;left:-10%}
+.red .watermark{width:72%;top:38%;right:-20%}
+.orange .watermark{width:86%;top:12%;right:-12%}
+/* Titulares en mayúsculas finas, como en el folleto */
+.panel h2{font-family:Jost,'Futura','Century Gothic',Arial,sans-serif;font-weight:400;text-transform:uppercase;letter-spacing:.05em;font-size:clamp(26px,2.5vw,40px);line-height:1.18;text-shadow:0 1px 3px rgba(0,0,0,.22)}
+.panel-content{padding-bottom:36px}
+/* Logo completo de la empresa en blanco */
+.company{border-top:1px solid rgba(255,255,255,.45)}
+.company-logo{display:block;width:auto;max-width:100%;object-fit:contain}
+.blue .company-logo{height:64px}.red .company-logo{height:54px}.orange .company-logo{height:44px}
+.transition-cover .watermark{display:none}
+@media(hover:hover) and (pointer:fine){.panel:hover .watermark,.panel:focus-visible .watermark{transform:scale(1.04)}}
+@media(max-width:760px){.panel h2{font-size:28px}.blue .company-logo{height:54px}.red .company-logo{height:46px}.orange .company-logo{height:38px}.watermark{opacity:.2}}
+
+/* Ajuste 2: foto de Chema más abierta (banda superior) y marcas de agua más pequeñas */
+.red .panel-photo,.red .tint{height:56%}
+.red::after{background:linear-gradient(180deg,rgba(0,0,0,.22) 0,rgba(0,0,0,0) 18%,rgba(var(--rgb),0) 30%,var(--brand) 56%)}
+.blue .watermark{width:66%;top:15%;left:-6%;opacity:.26}
+.red .watermark{width:52%;top:47%;right:-8%;opacity:.42}
+.orange .watermark{width:62%;top:14%;right:-6%;opacity:.45}
+@media(max-width:760px){.red .panel-photo,.red .tint{height:62%}.red::after{background:linear-gradient(180deg,rgba(0,0,0,.22) 0,rgba(0,0,0,0) 18%,rgba(var(--rgb),0) 34%,var(--brand) 62%)}.blue .watermark{width:58%;opacity:.24}.red .watermark{width:44%;top:auto;bottom:20%;right:-6%;opacity:.36}.orange .watermark{width:54%;opacity:.4}}
+.red .panel-photo,.red .tint{height:46%}
+.red::after{background:linear-gradient(180deg,rgba(0,0,0,.22) 0,rgba(0,0,0,0) 16%,rgba(var(--rgb),0) 26%,var(--brand) 46%)}
+.red .watermark{width:42%;top:auto;bottom:6%;right:-4%;opacity:.42}
+@media(max-width:760px){.red .panel-photo,.red .tint{height:58%}.red::after{background:linear-gradient(180deg,rgba(0,0,0,.22) 0,rgba(0,0,0,0) 16%,rgba(var(--rgb),0) 32%,var(--brand) 58%)}.red .watermark{width:38%;bottom:5%;right:-4%}}
+.red .watermark{width:36%;bottom:2.5%;right:-3%}
+/* Banda algo más baja para que entre el logo del camión completo */
+.red .panel-photo,.red .tint{height:42%}
+.red::after{background:linear-gradient(180deg,rgba(0,0,0,.22) 0,rgba(0,0,0,0) 16%,rgba(var(--rgb),0) 25%,var(--brand) 42%)}
+@media(max-width:760px){.red .panel-photo,.red .tint{height:58%}.red::after{background:linear-gradient(180deg,rgba(0,0,0,.22) 0,rgba(0,0,0,0) 16%,rgba(var(--rgb),0) 32%,var(--brand) 58%)}}
+/* Móvil: foto de Chema completa a lo ancho y texto debajo */
+@media(max-width:760px){.red{min-height:590px}.red .panel-photo,.red .tint{height:calc(100vw * 502 / 900);object-position:50% 50%}.red::after{background:linear-gradient(180deg,rgba(0,0,0,.22) 0,rgba(0,0,0,0) 50px,rgba(var(--rgb),0) calc(100vw * 502 / 900 - 70px),var(--brand) calc(100vw * 502 / 900))}}
+/* Chema: foto casi completa a lo ancho (menos zoom), bajo las etiquetas y fundida con el rojo */
+.red .panel-photo,.red .tint{top:64px;bottom:auto;height:auto;aspect-ratio:900/540;-webkit-mask-image:linear-gradient(180deg,#000 58%,transparent);mask-image:linear-gradient(180deg,#000 58%,transparent)}
+.red::after{background:linear-gradient(180deg,rgba(0,0,0,.16),rgba(0,0,0,0) 80px)}
+@media(max-width:760px){.red .panel-photo,.red .tint{top:52px;height:auto}.red::after{background:linear-gradient(180deg,rgba(0,0,0,.16),rgba(0,0,0,0) 70px)}}
+/* Un solo mensaje por panel: titular + logo (sin etiqueta de categoría repetida) */
+.panel-top{justify-content:flex-end}
+.panel-number{font-size:13px;letter-spacing:.12em;opacity:.85}
+/* Firma de la desarrolladora (portada) */
+.page-footer{flex-wrap:wrap}
+.page-footer .footer-credit{width:100%;display:flex;align-items:center;justify-content:center;gap:10px;padding-top:10px;margin-top:4px;border-top:1px solid #e3e7ee;font-size:11px;letter-spacing:.4px;color:#6b7689}
+.page-footer .footer-credit img{height:22px;width:auto}
+@media(max-width:760px){.page-footer .footer-credit{flex-direction:column;gap:6px}}
+.page-footer .footer-credit{font-size:10.5px;gap:8px}
+.page-footer .footer-credit img{height:16px}
+@media(max-width:760px){.page-footer .footer-credit img{height:14px}}
