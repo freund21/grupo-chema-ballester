@@ -63,3 +63,7 @@ assets/                     Estilos, scripts, logotipos, fotografías y datos
 Prototipo para presentar la propuesta. Para llevarlo a producción, el diseño se aplicaría sobre las webs actuales (WordPress) manteniendo sus formularios, la tienda y la gestión de cookies.
 
 Algunas fotografías son provisionales y se sustituirán por imágenes reales de las instalaciones y la flota.
+
+## Licencia
+
+© 2026 Zalezigo · Desarrollo web. Todos los derechos reservados. No se permite copiar, descargar ni reutilizar el código ni el diseño sin autorización por escrito. Consulta [LICENSE.md](LICENSE.md).
