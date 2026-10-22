@@ -1,3 +1,4 @@
+/*! © 2026 Zalezigo · Desarrollo web (zalezigo21@gmail.com). Todos los derechos reservados. Prohibida su copia, reproducción o reutilización sin autorización por escrito. */
 /* Grupo Chema Ballester — comportamiento común de las tres webs. Sin dependencias. */
 (function () {
   'use strict';

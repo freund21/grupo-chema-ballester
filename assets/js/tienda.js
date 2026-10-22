@@ -1,3 +1,4 @@
+/*! © 2026 Zalezigo · Desarrollo web (zalezigo21@gmail.com). Todos los derechos reservados. Prohibida su copia, reproducción o reutilización sin autorización por escrito. */
 /* Tienda RIBU: filtro Todos / Nuevos / Usados */
 (function () {
   'use strict';

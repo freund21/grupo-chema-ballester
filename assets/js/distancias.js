@@ -1,3 +1,4 @@
+/*! © 2026 Zalezigo · Desarrollo web (zalezigo21@gmail.com). Todos los derechos reservados. Prohibida su copia, reproducción o reutilización sin autorización por escrito. */
 /* Distancias kilométricas desde el Puerto de Valencia (Logística Chema Ballester).
    Datos: assets/data/distancias.js → window.GCB_DISTANCIAS = [[población, cp, provincia, km], …] */
 (function () {
