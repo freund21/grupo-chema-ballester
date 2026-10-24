@@ -314,7 +314,7 @@ body[data-brand="ribu"] .field label .req, body[data-brand="vcd"] .field label .
 body[data-brand="chema"] .footer a:hover { color: #ff6b85; }
 .footer-main { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1fr; gap: 40px; padding: 52px 0 36px; }
 .footer-brand p { margin-top: 16px; max-width: 320px; line-height: 1.6; }
-.footer h4 { margin-bottom: 14px; font-size: 12px; font-weight: 800; letter-spacing: 1.4px; text-transform: uppercase; color: #8d9ab0; }
+.footer h4, .footer .footer-title { margin-bottom: 14px; font-size: 12px; font-weight: 800; letter-spacing: 1.4px; text-transform: uppercase; color: #8d9ab0; }
 .footer ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 9px; }
 .footer-contact li { display: grid; grid-template-columns: 16px 1fr; gap: 10px; line-height: 1.5; }
 .footer-contact .icon { width: 16px; height: 16px; margin-top: 3px; color: #8d9ab0; }
